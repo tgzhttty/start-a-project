@@ -1,0 +1,62 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin:0;
+    background: #68cdd5;
+    font-size: 16px;
+    padding:0;
+}
+    .main{
+        background: #68cdd5;
+        width: 100%;
+        height: auto;
+    }
+    .back{
+        background:#68cdd5;
+        text-align:left;
+        padding:1% 0 0 1%;
+        width: 98%;
+        height: 1%;
+    }
+    .back img{
+        width: 3rem;
+    }
+    h2{
+        text-align:center ;
+    }
+    .text{
+        background:#68cdd5;
+        margin: 10%;
+        width: 80%;
+        height: 30%;
+        color: white;
+        Font-size:2rem;
+    }
+    .footer{
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 10%;
+        overflow: hidden;
+        margin-top: 5rem;
+        width: auto;
+        height: 15rem;
+    }
+    .left{
+        float: left;
+    }
+    .right{
+        float: right;
+    }
+    .left img{
+        width: 5rem;
+        padding-left: 1rem;
+    }
+    .right img{
+        width: 5rem;
+        padding-right: 1rem;
+    }
+    .footer span{
+        font-size: 1.8rem;
+        color: #fff;
+    }
