@@ -1,0 +1,72 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    background-color: #eeeff3;
+}
+header{
+    width: auto;
+    height: 2.8rem;
+    background-color: #68cdd5;
+    padding: 1.2rem 1rem 0 1rem;
+}
+.right{
+    float:right;
+    margin: 0 ;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+.left{
+    float:left;
+    margin: 0 ;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+.center{
+    text-align:center;
+    margin: 0  5rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.main{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.zh input{
+    margin-bottom: 0.5rem;
+    padding-left:5rem;
+    background: #fff url("../img/zh.png") no-repeat 0.2rem;
+    background-size:5rem 5rem;
+}
+.pw input{
+    padding-left: 5rem;
+    margin-bottom: 0.5rem;
+    background:#fff url("../img/pw.png") no-repeat 0.2rem;
+    background-size:5rem 5rem;
+}
+.main input{
+    border: 0;
+}
+.login{
+    text-align:center;
+    background-color: #68cdd5;
+}
+.login input{
+    background-color: #68cdd5;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.xg{
+    float:right;
+    color: #68cdd5;
+    background-color:  #eeeff3;
+    font-size: 1.6rem;
+    width: 7rem;
+    height: 3rem;
+    font-weight: 200;
+}
