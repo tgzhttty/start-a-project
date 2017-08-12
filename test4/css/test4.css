@@ -41,12 +41,14 @@ header{
     padding-left:5rem;
     background: #fff url("../img/zh.png") no-repeat 0.2rem;
     background-size:5rem 5rem;
+    box-sizing: border-box;
 }
 .pw input{
     padding-left: 5rem;
     margin-bottom: 0.5rem;
     background:#fff url("../img/pw.png") no-repeat 0.2rem;
     background-size:5rem 5rem;
+    box-sizing: border-box;
 }
 .main input{
     border: 0;
