@@ -1,0 +1,130 @@
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #29bde0;
+    padding:0;
+    z-index:1;
+    line-height: 2.5rem;
+    text-align: center;
+    position: relative;
+    outline: none;
+}
+.daohang{
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    height:1.3rem;
+    width: 1.3rem;
+    background: url("../img/daohang.png") no-repeat;
+    background-size:100% ;
+    outline: none;
+    border:none;
+    padding: 0;
+}
+main{
+    height: 100%;
+    width: auto;
+    background-color: #f0f0f0;
+    padding: 1rem 2rem 0 2rem;
+    flex: 1;
+}
+.lishi{
+    width: 100%;
+    height: 6rem;
+    line-height: 6rem;
+    text-align: center;
+    background-color: #fff;
+    color: #9a9a9a;
+    font-size: 1.7rem;
+    position: relative;
+    margin-bottom: 1rem;
+    border:0.1rem solid #dbdbdb;
+}
+.lishi a{
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%) rotate(50deg);
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-right: 0.3rem solid #e7e7e7;
+    border-top: 0.3rem solid #e7e7e7;
+}
+.zhengw{
+    background-color:#ffffff ;
+    border:0.1rem solid #dbdbdb;
+}
+.biaoti{
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    background-color: #fff;
+    font-size: 1.8rem;
+    color: #fbb435;
+    border-bottom: 0.1rem solid #fbb435;
+}
+.choice{
+    padding: 1rem 2rem 0 2rem;
+    background-color: #ffffff;
+    background: url("../img/hjt.png") no-repeat 99% 43%;
+    background-size: 1rem 2rem;
+}
+.bangben{
+    width: auto;
+    height: 6rem;
+    line-height: 6rem;
+    background-color: #69d1e9;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.bangben a{
+    text-decoration:none;
+    color: #ffffff;
+    display: block;
+    width: auto;
+    height: auto;
+}
+.choice span{
+    display:block;
+    width: auto;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    background-color: #ffffff;
+    color: #787878;
+}
+.controller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.9rem;
+}
+.pointer {
+    background-color: #f0f0f0;
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 100px;
+    margin-left: 0.5rem;
+}
+
+.pointer.active {
+    background-color:#69d1e9;
+}
